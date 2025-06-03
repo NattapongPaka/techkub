@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ยืนยันอีเมลสำเร็จ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Prompt', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+      background: linear-gradient(135deg, #30b67c 0%, #43cea2 100%);
+      color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: rgba(255,255,255,0.98);
+      padding: 36px 28px;
+      border-radius: 22px;
+      box-shadow: 0 6px 36px rgba(0,0,0,0.09);
+      max-width: 400px;
+      text-align: center;
+    }
+    .icon-success {
+      font-size: 4em;
+      color: #30b67c;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    .desc {
+      font-size: 1.08em;
+      color: #444;
+      margin-bottom: 16px;
+    }
+    .btn {
+      background: linear-gradient(90deg, #30b67c 0%, #43cea2 100%);
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 11px 30px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 12px;
+      box-shadow: 0 2px 10px rgba(48,182,124,0.08);
+      transition: background 0.24s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #43cea2 0%, #30b67c 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-success">✅</div>
+    <div class="title">ยืนยันอีเมลสำเร็จ!</div>
+    <div class="desc">
+      ขอบคุณที่ยืนยันอีเมลของคุณ<br>
+      คุณสามารถกลับไปใช้งานแอปได้ทันที
+    </div>
+    <!-- ใส่ปุ่มกลับไปยังแอปหรือหน้าอื่นได้ถ้าต้องการ -->
+    <!--
+    <a href="myapp://" class="btn">เปิดแอป</a>
+    -->
+  </div>
+</body>
+</html>
